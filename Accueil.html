@@ -6,39 +6,71 @@
     <title></title>
     <meta name="description" content="Site de voyage">
     <link rel="stylesheet" href="Accueil.css">
+    <style>
+.Boutonmenu {
+
+background-color: #66bfc5;
+color: white;
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+font-size: 20px;
+}
+.Boutonmenu:hover {
+background-color: #66bfc5;
+}
+.constant {
+  margin-left: 40%;
+position: relative;
+display: inline-block;
+
+}
+.sous-menu {
+display: none;
+background-color: #66bfc5;
+min-width: 50px;
+}
+.sous-menu a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.constant:hover .sous-menu {
+display: block;
+position: absolute;
+}
+.Questionaire {margin-left: 5%;font-size: 20px;}
+</style>
   </head>
 <body>
   <nav>
-    <ul>
-      <li class="Pays"><a href="Pays.html">Pays</a>
-        <ul class="sousmenu">
-          <li><a href="Pays1.html">Pays1</a></li>
-          <li><a href="Pays2.html">Pays2</a></li>
-        </ul>
-      </li>
+      <div class="constant">
+        <button class="Boutonmenu">Pays</button>
+        <div class="sous-menu">
+          <a href="Pays1.html">Pays1</a></li>
+          <a href="Pays2.html">Pays2</a></li>
+        </div>
+      </div>
       <li class="Questionaire"><a href="Questionaire.html">Questionaire</a>
-    </ul>
   </nav>
 <div class="photo">
   <img src="C:\Users\merover\Pictures\Saved Pictures\photto de voyage.jpg">
 </div>
 <div class="Partie1">
-  <div class="Texte1">
-    <h1>voyage et decouverts</h1>
-  </div>
+
 </div>
 <div class="Partie2">
-  <div class="Texte2">
-    <h2>presentation</h2>
-    <div class="pbienvenue">
-      <p>Voici le site d'ISN que nous avons fait merci de remplir le forumulaire pour que nous puission vous indiquer un pays a visister
+  <div class="pbienvenue">
+    <p>Voici le site d'ISN que nous avons fait merci de remplir le forumulaire pour que nous puission vous indiquer un pays a visister</p>
+  </div>
 
-    </div>
-    </p>
   </div>
 
 </div>
 
 
-
+<footer>
+</footer>
 </body>
