@@ -1,0 +1,11 @@
+html,body{margin:0px;padding: 0px;text-decoration: none;}
+li  {color: white;display: inline;text-decoration: none;}
+a, a:hover, a:visited, a:active{color:white;text-decoration:none;display: inline;}
+h1{font-size:40px;color:white ;display: flex;margin: auto;padding-top: 0px;}
+h2 {font-size:40px;color:black;display: flex;margin: auto;}
+img{padding: 0px;margin: 0px;width: 100%;}
+footer{background-color: #66bfc5;color: white;margin-top: 10%;font-size: 14px;font-family: Verdana;width: 100%;display: Flex ;justify-content: space-around;position: absolute;}
+
+.photo{margin:0px;padding: 0px;}
+.Partie2{text-align: center;height: 0%; background-color:white; margin: 0px;}
+.pbienvenue{color: white;margin: auto;margin-top: 4%;width: 30%; height: 0%;background-color:#a0d336; padding: 0.5%;text-align: center;font-weight: 100; font-size: 14px;font-family: Verdana;}

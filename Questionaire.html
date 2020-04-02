@@ -1,57 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="Site de voyage">
-    <link rel="stylesheet" href="Accueil.css">
-    <style>
-.Boutonmenu {
-
-background-color: #66bfc5;
-color: white;
-border: none;
-cursor: pointer;
-padding:20px;
-margin-top:20px;
-font-size: 20px;
-}
-.Boutonmenu:hover {
-background-color: #66bfc5;
-}
-.constant {
-  margin-left: 40%;
-position: relative;
-display: inline-block;
-
-}
-.sous-menu {
-display: none;
-background-color: #66bfc5;
-min-width: 50px;
-}
-.sous-menu a {
-color: white;
-padding: 20px;
-text-decoration: none;
-display: block;
-}
-.constant:hover .sous-menu {
-display: block;
-position: absolute;
-}
-.Questionaire {margin-left: 5%;font-size: 20px;}
+    <link rel="stylesheet" href="Questionaire.css">
+<style>
+.Boutonmenu {background-color: #66bfc5;color: white;border: none;cursor: pointer;font-size: 20px;font-family: Verdana;}
+.Boutonmenu:hover {background-color: #66bfc5;}
+.constant {position: relative;display: inline-block;}
+.sous-menu {display: none;background-color: #66bfc5;width: 100px;}
+.sous-menu a {color: white;padding: 15%;text-decoration: none;display: block;}
+.constant:hover .sous-menu {display: block;position: absolute;}
+.Questionaire {font-size:20px;font-family: Verdana;}
+.Accueil{font-size:20px;font-family: Verdana;}
+a {font-size: 20px;font-family: Verdana;}
+nav{background-color: #66bfc5;margin: auto;display: Flex ;justify-content: space-around; padding: 1%;}
 </style>
-  </head>
+</head>
 <body>
   <nav>
+      <li class="Accueil"><a href="Accueil.html">Accueil</a></li>
       <div class="constant">
         <button class="Boutonmenu">Pays</button>
         <div class="sous-menu">
-          <a href="Pays1.html">Pays1</a></li>
-          <a href="Pays2.html">Pays2</a></li>
+          <a href="Pays1.html">Pays 1</a>
+          <a href="Pays2.html">Pays 2</a>
+          <a href="Pays3.html">Pays 3</a>
         </div>
       </div>
-      <li class="Questionaire"><a href="Questionaire.html">Questionaire</a>
-  </nav><
+      <li class="Questionaire"><a href="Questionaire.html">Questionaire</a></li>
+      <li class="Connexion"><a href="Connexion.html">Connexion</a></li>
+  </nav>
