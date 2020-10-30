@@ -1,0 +1,7 @@
+#Première-partie h3 {color: grey}
+#Première-partie blockquote p::first-letter{color: brown; font-weight: bold; }
+
+#Seconde-partie p  {color: red; font-size: smaller;}
+#Seconde-partie  h2 {color: red;font-size: smaller;}
+#Seconde-partie h3 {color: red;font-size: smaller;}
+#Seconde-parite cite  {color: red;font-size: smaller;}
