@@ -70,31 +70,31 @@
 #     print ("c'est un triangle rectangle")
 # else :
 #     print("ce n'est pas un triangle rectangle")
-
-# nombre=int(input("veuillez saisir votre nombre"))
-# liste=[]
-# for i in range(1,nombre+1):
-#     a=nombre%i
-#     if a==0:
-#         liste.append(i)
-# if len(liste)==2:
-#     print("le nombre est premier")
-# else:
-#     print("le nombre n'est pas premier")
-
-N=int(input("Veuillez saisir le nombre N "))
-M=int(input("Veuillez saisir le nombre M "))
+# B1
+nombre=int(input("veuillez saisir votre nombre"))
 liste=[]
-listedesnombrepremier=[]
-def nombre_premier(N,M):
-    for i in range (N,M):
-        for a in range(1,M+1):
-            x=i%a
-            if x==0:
-                liste.append(a)
-        if len(liste)==2:
-            listedesnombrepremier.append(i)
-    print(listedesnombrepremier)
-nombre_premier(N,M)
+for i in range(1,nombre+1):
+    a=nombre%i
+    if a==0:
+        liste.append(i)
+if len(liste)==2:
+    print("le nombre est premier")
+else:
+    print("le nombre n'est pas premier")
+# B2
+# # N=int(input("Veuillez saisir le nombre N "))
+# # M=int(input("Veuillez saisir le nombre M "))
+# # liste=[]
+# # listedesnombrepremier=[]
+# # def nombre_premier(N,M):
+# #     for i in range (N,M):
+# #         for a in range(1,M+1):
+# #             x=i%a
+# #             if x==0:
+# #                 liste.append(a)
+# #         if len(liste)==2:
+# #             listedesnombrepremier.append(i)
+# #     print(listedesnombrepremier)
+# # nombre_premier(N,M)
 
 # le dernier programme ne marche pas et je ne sais pas pourquoi ?
