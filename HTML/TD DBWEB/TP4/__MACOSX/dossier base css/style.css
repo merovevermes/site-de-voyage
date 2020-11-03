@@ -11,4 +11,6 @@ h1,h2,h3{font-family: monospace; }
 blockquote{margin-left: 5em;}
 th{text-decoration: underline;}
 #basdelapage{background-color: #AAAAAA;}
-#image { position: absolute;background-repeat: repeat-y;margin-left: 90%;height: 144%;}
+#image {position: absolute;bottom:0;right:0;background-repeat: repeat-y;}
+#border{border: ridge green;padding:4ex;}
+#petit-texte{float: right;}
