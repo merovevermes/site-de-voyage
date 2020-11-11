@@ -14,3 +14,5 @@ th{text-decoration: underline;}
 #image {position: absolute;bottom:0;right:0;background-repeat: repeat-y;}
 #border{border: ridge green;padding:4ex;}
 #petit-texte{float: right;}
+li{list-style-type: lower-alpha;}
+ol{list-style-type: circle;}

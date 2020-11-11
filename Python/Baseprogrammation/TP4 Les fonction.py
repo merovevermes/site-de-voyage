@@ -112,26 +112,24 @@ from math import *
 #     print(retour)
 # fonction(2,1,6)
 
-# version amelioré ->
-# from math import *
-# def fonction(a,b,c):
-#     delta=b**2-4*a*c
-#
-#     if delta>0:
-#         racine = sqrt(delta)
-#         x1=(-b-racine/(2*a))
-#         x2=(-b+racine/(2*a))
-#         print("delta est positif donc 2 solution")
-#         print("la premier solution est : ",x1)
-#         print("la deuxieme solution est : ",x2)
-#     else:
-#         if delta==0:
-#             x0=-b/(2*a)
-#             print("delta est egale a 0 donc il n'y a que 1 solution")
-#             print("la solution est :",x0)
-#         else:
-#             print("Pas de solution dans l'espace des réels")
-#
-# fonction(2,3,9/8)
-
-
+ # version amelioré ->
+ # from math import *
+ # def fonction(a,b,c):
+ #     delta=b**2-4*a*c
+ #
+ #     if delta>0:
+ #         racine = sqrt(delta)
+ #         x1=(-b-racine/(2*a))
+ #         x2=(-b+racine/(2*a))
+ #         print("delta est positif donc 2 solution")
+ #         print("la premier solution est : ",x1)
+ #         print("la deuxieme solution est : ",x2)
+ #     else:
+ #         if delta==0:
+ #             x0=-b/(2*a)
+ #             print("delta est egale a 0 donc il n'y a que 1 solution")
+ #             print("la solution est :",x0)
+ #         else:
+ #             print("Pas de solution dans l'espace des réels")
+ #
+ # fonction(2,3,9/8)
