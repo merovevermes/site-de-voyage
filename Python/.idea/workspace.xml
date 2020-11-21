@@ -59,7 +59,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.TP 5 Les tris">
+  <component name="RunManager" selected="Python.TPévaluer19112020">
+    <configuration name="TD_Recursivite_BProg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Documents\Devlopemment\GitHub\Programme\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../Downloads/TD_Recursivite_BProg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TP 5 Les tris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,8 +123,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TP6 Récursivité" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Documents\Devlopemment\GitHub\Programme\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baseprogrammation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baseprogrammation/TP6 Récursivité.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TPévaluer19112020" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Documents\Devlopemment\GitHub\Programme\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baseprogrammation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baseprogrammation/TPévaluer19112020.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TPévaluer19112020" />
+        <item itemvalue="Python.TP6 Récursivité" />
+        <item itemvalue="Python.TD_Recursivite_BProg" />
         <item itemvalue="Python.TP 5 Les tris" />
         <item itemvalue="Python.TP4 Les fonction" />
       </list>
@@ -158,26 +224,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605005913088" />
-    <state width="1898" height="282" key="GridCell.Tab.0.bottom" timestamp="1605098389629">
+    <state width="1362" height="282" key="GridCell.Tab.0.bottom" timestamp="1605794394765">
       <screen x="0" y="0" width="1919" height="1040" />
     </state>
-    <state width="1898" height="282" key="GridCell.Tab.0.bottom/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605098389629" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605015314940" />
-    <state width="1898" height="282" key="GridCell.Tab.0.center" timestamp="1605098389629">
+    <state width="1499" height="282" key="GridCell.Tab.0.bottom/1920.103.1040.860/0.0.1520.1040/-1600.6.1600.860@0.0.1520.1040" timestamp="1605792231154" />
+    <state width="1362" height="282" key="GridCell.Tab.0.bottom/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605794394765" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605791711237" />
+    <state width="1362" height="282" key="GridCell.Tab.0.center" timestamp="1605794394765">
       <screen x="0" y="0" width="1919" height="1040" />
     </state>
-    <state width="1898" height="282" key="GridCell.Tab.0.center/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605098389629" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605015314940" />
-    <state width="1898" height="282" key="GridCell.Tab.0.left" timestamp="1605098389629">
+    <state width="1499" height="282" key="GridCell.Tab.0.center/1920.103.1040.860/0.0.1520.1040/-1600.6.1600.860@0.0.1520.1040" timestamp="1605792231154" />
+    <state width="1362" height="282" key="GridCell.Tab.0.center/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605794394765" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605791711237" />
+    <state width="1362" height="282" key="GridCell.Tab.0.left" timestamp="1605794394765">
       <screen x="0" y="0" width="1919" height="1040" />
     </state>
-    <state width="1898" height="282" key="GridCell.Tab.0.left/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605098389629" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605015314940" />
-    <state width="1898" height="282" key="GridCell.Tab.0.right" timestamp="1605098389629">
+    <state width="1499" height="282" key="GridCell.Tab.0.left/1920.103.1040.860/0.0.1520.1040/-1600.6.1600.860@0.0.1520.1040" timestamp="1605792231153" />
+    <state width="1362" height="282" key="GridCell.Tab.0.left/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605794394765" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605791711237" />
+    <state width="1362" height="282" key="GridCell.Tab.0.right" timestamp="1605794394765">
       <screen x="0" y="0" width="1919" height="1040" />
     </state>
-    <state width="1898" height="282" key="GridCell.Tab.0.right/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605098389629" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605015314940" />
+    <state width="1499" height="282" key="GridCell.Tab.0.right/1920.103.1040.860/0.0.1520.1040/-1600.6.1600.860@0.0.1520.1040" timestamp="1605792231154" />
+    <state width="1362" height="282" key="GridCell.Tab.0.right/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605794394765" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605791711237" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605005949445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,5 +256,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605006561491" />
+    <state x="-1573" y="-16" width="1572" height="718" maximized="true" key="dock-window-1" timestamp="1605188674940">
+      <screen x="-1600" y="6" width="1600" height="860" />
+    </state>
+    <state x="-1573" y="-16" width="1572" height="718" maximized="true" key="dock-window-1/1920.103.1439.860/0.0.1919.1040/-1600.6.1600.860@0.0.1919.1040" timestamp="1605188674940" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1605789025084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605789025084" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605789157984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.103.1440.860/0.0.1920.1040/-1600.6.1600.860@0.0.1920.1040" timestamp="1605789157984" />
   </component>
 </project>
