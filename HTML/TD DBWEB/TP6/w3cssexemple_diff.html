@@ -19,10 +19,31 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <body class="w3-light-grey">
 
 <!-- Page Container -->
+<div class="w3-bar w3-theme">
+  <a href="#Information" class="w3-bar-item w3-button">Information</a>
+  <a href="#Le Tableaux" class="w3-bar-item w3-button">Le Tableaux</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Formation</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#Site-Web" class="w3-bar-item w3-button">Site Web</a>
+      <a href="#Master" class="w3-bar-item w3-button">Master</a>
+      <a href="#Licence" class="w3-bar-item w3-button">Licence</a>
+    </div>
+  </div>
+</div>
+
+
 <div class="w3-container w3-content w3-margin-top" style="max-width:1400px;">
+  <h3 class="w3-container w3-red w3-cell"><a href="#Information">Information</a></h3>
+  <h3 class="w3-container w3-green w3-cell"><a href="#Compétences">Compétences</a></h3>
+  <h3 class="w3-container w3-yellow w3-cell"><a href="#Languages">Languages</a></h3>
+  <h3 class="w3-container w3-blue w3-cell"><a href="#Le Tableaux">Le Tableaux</a></h3>
+  <h3 class="w3-container w3-pink w3-cell"><a href="#Formation"> Formation</a></h3>
+  <h3 class="w3-container w3-cyan w3-cell"><a href="#Experiance-professionnelle">Experiance Professionnelle</a> </h3>
 
   <!-- The Grid -->
   <div class="w3-row-padding" style="margin:0 -16px">
+
 
     <!-- Left Column -->
     <div class="w3-third">
@@ -36,14 +57,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <h2>François Dupont</h2>
           </div>
         </div>
-        <div class="w3-container ">
+        <div class="w3-container " id="Information">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-theme w3-spin"></i>Developpeur</p>
           <p><i class="fa fa-home w3-margin-right w3-large w3-text-theme"></i>Avignon, FR</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-theme"></i>biggeek@alumni.univ-avignon.fr</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-theme"></i>0123456789</p>
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-theme"></i>Compétences</b></p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-theme" id="Compétences"></i>Compétences</b></p>
           <p>Programmation Python</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
             <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:90%">
@@ -70,7 +91,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
           <br>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>Languages</b></p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-theme" id="Languages"></i>Languages</b></p>
           <p>Python</p>
           <div class="w3-progress-container w3-round-xlarge">
             <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:100%"></div>
@@ -92,7 +113,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Right Column -->
     <div class="w3-twothird">
-      <div class="w3-container">
+      <div class="w3-container"id="Le Tableaux">
       <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-theme w3-opacity"></i>Le Tableaux</h2>
 
@@ -116,7 +137,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
               <a href="#CERI-master">CERI master</a>
             </td>
             <td>
-              <a href="#site web">Site Web</a>
+              <a href="#Site-Web">Site Web</a>
             </td>
           </tr>
           <tr>
@@ -138,9 +159,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </table>
         </div>
 
-      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom" id="Formation">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-theme w3-opacity"></i>Formation</h2>
-        <div class="w3-container" id="site Web">
+        <div class="w3-container" id="Site-Web">
           <h5 ><b>OuverteSalledeClasses.com</b></h5>
           <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Permanent</h6>
           <p>Tout langage, technologie. Formation en ligne et mise à niveau.</p>
@@ -164,7 +185,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
       </div>
 
-      <div class="w3-container w3-card-2 w3-white">
+      <div class="w3-container w3-card-2 w3-white" id="Experiance-professionnelle">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-theme w3-opacity"></i>Expérience professionnelle</h2>
         <div class="w3-container" id="Stage Développer">
           <h5 ><b>Stage Développeur chez maboite@com</b></h5>
