@@ -33,7 +33,6 @@
 # Estpremier(3)
 
 def recursive(N,M):
-    listediviseur=[]
     listepremier=[]
     for a in range(N,M):
         listediviseur=[]
@@ -42,8 +41,11 @@ def recursive(N,M):
                 listediviseur.append(t)
         if len(listediviseur)==2:
             listepremier.append(a)
-    for b in range (listepremier)
-        
-
+    for b in range (len(listepremier)):
+        listesomme=[]
+        resultat=[]
+        listesomme.append(1/b)
+        resultat.append(sum(listesomme))
+    print(resultat)
 recursive(0,10)
 
