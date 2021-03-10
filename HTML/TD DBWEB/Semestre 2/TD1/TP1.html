@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<link href="../TP1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+</head>
+    
+
+<body>
+    <h1 class="w3-theme"> Bienvenue sur ma page </h1>
+    <div class="w3-cards w3-text-theme " style="padding: 30px; margin: 20px; box-shadow: 0px 15px 15px 3px grey ;">
+      <form method="get" action="TP1.html" class="" style="padding: 20px; margin: 20px;">
+        
+        <div style="margin: 10px;"><label for="Nom">Name</label>
+          <input type="text" name="Nom" id="Nom" >
+          </div>
+        
+        <div style="margin: 10px;"><label for="Prenom">Prénom</label>
+          <input type="text" name="Prenom" id="Prenom"></div>
+        <div style="margin: 10px;"><label for="Age">Age</label>
+          <input type="texte" name="Age" id="Age">
+        </div>   
+        <div style="margin: 10px;"><label for="e-mail">E-mail</label>
+          <input type="email" name="E-mail" id="E-mail" placeholder="nom.prenom@univ-avignon.fr"></div>
+        <div style="margin: 10px;">
+          <label for="MDP">Mots de passe</label>
+          <input type="password" name="MDP" id="MDP">
+        </div>
+        <div style="margin: 10px;">
+          <label for="Confirmation-MDP">Confirmer le mots de passe</label>
+          <input type="password" name="Confirmation-MDP" id="Confirmation-MDP">
+        </div>
+        <div style="margin: 10px;"> 
+          <label for="Commentaire"> Mettez cotre commentaire ici</label>
+          <p></p>
+          <textarea rows="3" name="Commentaire" id="Commentaire"></textarea>
+        </div >
+        <div style="margin: 10px;"> 
+          <label for="Genre">choisisais un Genre</label>
+          <p></p>
+          <input type="radio" name="Genre" id="genrefemmes">femmes 
+          <input type="radio" name="genre" id="genrehomme"> hommes
+          
+          </div>
+        
+        <div style="margin: 10px;">
+          <label for="passion">Choisisais votre passion</label>
+          <p></p>
+          <input type="checkbox" name="Passion" id="Passion1"> foot
+          <input type="checkbox" name="Passion" id="Passion2"> Baskette
+          <p></p>
+          <input type="checkbox" name="Passion" id="Passion3"> Ski
+          <input type="checkbox" name="Passion" id="Passion4"> randonnée
+        </div>
+        <div style="margin: 10px;"> 
+          <label for="choixproffesion ">Choix de profession</label>
+          <select id="choixproffesion">
+            
+            <option value="Dc">Medecin</option>
+            <option value="Profs" selected>Proffeseur</option>
+            <option value="Info">Informatitiens</option>
+            <option value="elec">electricien</option>
+            
+            </select>
+          <p></p>
+          <select size="4">
+            <option value="Train">Train</option>
+            <option value="Voiture">Voiture</option>
+            <option value="Vélo"> Vélo </option>
+            <option value="trotinette">Trotinette</option>
+            </select>
+          
+        </div>
+        <button type="submit" style="margin: 30px;">Envoyer</button>
+        <button>Réinitialiser</button>
+        </form>
+    </div>
+    
+</body>
+</html>
